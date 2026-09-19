@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <!-- BooStrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Css Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body class="body-bg">
+    <!-- Start Nav -->
+    <section>
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center border border-1 rounded-pill py-1 px-2 mt-3">
+                <ul class="nav main-nav align-items-center d-none d-lg-flex">
+                    <li class="nav-item">
+                        <a class="btn btn-asali rounded-pill" href="#">کارشناسی خودرو</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-asali" href="#">فروش خودرو+</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">قیمت خودرو </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">تماس با ما </a>
+                    </li>
+                    <li class="divider"></li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">درباره ما</a>
+                    </li>
+                </ul>
+                <button class="btn text-white p-0 fs-3 m-0 d-lg-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="bi bi-list d-flex"></i>
+                </button>
+                <div class="offcanvas offcanvas-start bg-dark-navy  " tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <img src="assets/imgs/Group 1.png" width="150px" alt="">
+                        <button type="button" class="btn-close bg-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav main-nav flex-column ">
+                            <li class="nav-item my-1">
+                                <a class="nav-link " href="#">کارشناسی خودرو</a>
+                            </li>
+                            <li class="nav-item my-1">
+                                <a class="nav-link text-asali" href="#">فروش خودرو+</a>
+                            </li>
+                            <li class="nav-item my-1">
+                                <a class="nav-link " href="#">قیمت خودرو </a>
+                            </li>
+                            <li class="nav-item my-1">
+                                <a class="nav-link " href="#">تماس با ما </a>
+                            </li>
+                            <li class="nav-item my-1">
+                                <a class="nav-link " href="#">درباره ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="">
+                    <img src="assets/imgs/Group 1.png" width="200px" class="pe-2" alt="">
+                </a>
+            </nav>
+        </div>
+    </section>
+    <!-- End Nav -->
+
+    <!-- Start Header -->
+    <header class="py-5 my-0 my-lg-4 position-relative">
+        <div class="container">
+            <div class="row text-white justify-content-center">
+                <div class="col-10  col-lg-6 ">
+                    <div class="d-flex justify-content-center flex-column h-100">
+                        <div class="h3 lh-lg fw-bold">
+                            خرید و فروش خودرو، مطمئن و آسان <br>با
+                            <span class="text-asali">ماشین سرا </span>
+                        </div>
+                        <p class="mt-3 lh-lg col-12 col-lg-8">
+                            همه‌ی ما برای خرید خودرو نیازمند استفاده از کارشناسان با تجربه و متخصص هستیم که خودرو را پیش
+                            از خرید از لحاظ رنگ، فنی و بدنه‌ مورد بررسی قرار داده تا ما خرید رضایت بخشی را تجربه کنیم.
+                            با سرویس کارشناسی خودرو در محل ماشین سرا می‌توانید خریدی مطمئن را تجربه کنید.
+                        </p>
+                        <img src="assets/imgs/head-img2.png" class="position-absolute d-none d-lg-block img-over-right"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-10  col-lg-6 ">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="assets/imgs/head-car.png" class="img-fluid" alt="">
+                        <img src="assets/imgs/head-img1.png" class="position-absolute img-over-left" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Services -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row  g-3 justify-content-center">
+                <div class="col-11 col-sm-6 col-md-6 col-lg-3">
+                    <a href=""
+                        class="card-service h-100 bg-dark-navy p-3 position-relative d-block text-decoration-none"
+                        style="width: 90%;">
+                        <img src="assets/imgs/service1.png" width="160px" alt="">
+                        <h5 class="text-asali fw-bold py-2 py-lg-3">کارشناسی خودرو</h5>
+                        <ul class="list-unstyled text-white">
+                            <li class="py-1">کارشناسی تخصصی رنگ ، بدنه و فنی خودرو</li>
+                            <li class="py-1">قیمت گذاری دقیق خودرو</li>
+                            <li class="py-1">همراه با گزارش مکتوب و معتبر</li>
+                        </ul>
+                        <div
+                            class="body-bg service-icon-box rounded-circle position-absolute d-flex justify-content-center align-items-center">
+                            <span
+                                class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-arrow-up fs-4 text-whitea"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-11 col-sm-6 col-md-6 col-lg-3">
+                    <a href=""
+                        class="card-service h-100 bg-dark-navy p-3 position-relative d-block text-decoration-none"
+                        style="width: 90%;">
+                        <img src="assets/imgs/service2.png" width="160px" alt="">
+                        <h5 class="text-asali fw-bold py-2 py-lg-3">فروش خودرو </h5>
+                        <ul class="list-unstyled text-white">
+                            <li class="py-1">فروش سفارشی خودرو</li>
+                            <li class="py-1">همراهی مشاور فروش اختصاصی</li>
+                            <li class="py-1">کارشناسی و قیمت‌گذاری دقیق خودرو</li>
+                            <li class="py-1">مذاکره با خریداران و یافتن بهترین خریدار</li>
+                        </ul>
+                        <div
+                            class="body-bg service-icon-box rounded-circle position-absolute d-flex justify-content-center align-items-center">
+                            <span
+                                class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-arrow-up fs-4 text-whitea"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-11 col-sm-6 col-md-6 col-lg-3">
+                    <a href=""
+                        class="card-service h-100 bg-dark-navy p-3 position-relative d-block text-decoration-none"
+                        style="width: 90%;">
+                        <img src="assets/imgs/service3.png" width="160px" alt="">
+                        <h5 class="text-asali fw-bold py-2 py-lg-3">خرید خودرو</h5>
+                        <ul class="list-unstyled text-white">
+                            <li class="py-1">خرید و فروش خودرو</li>
+                            <li class="py-1">قیمت روز خودرو کارکرده</li>
+                            <li class="py-1">قیمت روز خودرو صفر</li>
+                        </ul>
+                        <div
+                            class="body-bg service-icon-box rounded-circle position-absolute d-flex justify-content-center align-items-center">
+                            <span
+                                class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-arrow-up fs-4 text-whitea"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-11 col-sm-6 col-md-6 col-lg-3">
+                    <a href=""
+                        class="card-service h-100 bg-dark-navy p-3 position-relative d-block text-decoration-none"
+                        style="width: 90%;">
+                        <img src="assets/imgs/service4.png" width="160px" alt="">
+                        <h5 class="text-asali fw-bold py-2 py-lg-3">حواله خودرو</h5>
+                        <ul class="list-unstyled text-white">
+                            <li class="py-1">سند تک برگ به نام خریدار</li>
+                            <li class="py-1">تحویل مطمین و آسان خودرو </li>
+                            <li class="py-1">عدم نیاز به تنظیم قولنامه و روشهای سنتی</li>
+                            <li class="py-1">خرید و فروش خودرو به صورت رسمی </li>
+                        </ul>
+                        <div
+                            class="body-bg service-icon-box rounded-circle position-absolute d-flex justify-content-center align-items-center">
+                            <span
+                                class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-arrow-up fs-4 text-whitea"></i>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+
+    <!-- Start New Cars -->
+    <section class="py-5 my-0 my-lg-4 position-relative">
+        <div class="container">
+            <div class="section-top d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="assets/imgs/logo.png" width="50px" alt="">
+                    <div class="ps-2">
+                        <h5 class="text-white fw-bold">جدید ترین خودرو ها</h5>
+                        <p class="text-secondary small m-0 d-none d-lg-block">فروش خودرو های قیمت روز خودرو صفر و
+                            کارکرده</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" class="text-decoration-none text-white">
+                        <span class="pe-1 small">مشاهده بیشتر </span>
+                        <i class="bi bi-arrow-left text-asali"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/new-car1.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">لوکس جری </h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">تهران-1399</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-speedometer"></i>
+                                    <span class="fw-lighter ps-1">82.000 کیلومتر</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ آبی </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">12 اردیبهشت 1403</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">470.000.000</span>
+                                <span class="small">تومان</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/new-car2.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">پژو پارس</h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">رودهن-1399</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-speedometer"></i>
+                                    <span class="fw-lighter ps-1">82.000 کیلومتر</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ سفید </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">دقایقی پیش</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">460.000.000</span>
+                                <span class="small">تومان</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/new-car3.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">فوتون تولند 2.8</h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">مشهد-1402</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-speedometer"></i>
+                                    <span class="fw-lighter ps-1">13.000 کیلومتر</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ قرمز </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">دقایقی پیش</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">2.080.000.000</span>
+                                <span class="small">تومان</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/new-car4.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">آریسان وانت </h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">تهران-1399</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-speedometer"></i>
+                                    <span class="fw-lighter ps-1">230.000 کیلومتر</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ سفید </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">دقایقی پیش</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">310.000.000</span>
+                                <span class="small">تومان</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/imgs/new-cars-line.png"
+            class="position-absolute start-0 top-50 translate-middle-y z-n1 d-none d-lg-block" alt="">
+    </section>
+    <!-- End New Cars -->
+
+    <!-- Start Pricing -->
+    <section class="py-5 my-0 my-lg-4">
+        <div class="container">
+            <div class="pricing-container">
+                <div
+                    class="pricing-box py-5 px-2 d-flex flex-column justify-content-center align-items-center text-white position-relative overflow-hidden">
+                    <h5 class="fw-bold">قیمت گذاری خودرو</h5>
+                    <p class="col-11 col-lg-6 text-center small fw-lighter py-3 lh-lg"> با قیمت گذاری آنلاین ماشین‌بانک
+                        ، می‌توانید قیمت خودرویتان را به راحتی محاسبه کنید! قیمت گذار ماشین‌بانک با استفاده از
+                        الگوریتم‌های هوش‌ مصنوعی، قیمت خودرویتان را بر اساس داده های موجود در بازار به درستی محاسبه
+                        می‌کند .</p>
+                    <button class="btn btn-asali rounded-pill">تخمین قیمت خودرو</button>
+                    <img src="assets/imgs/pricing-1.png" class="position-absolute end-0 bottom-0 pricing-img-over"
+                        width="100px" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pricing -->
+
+    <!-- Start Havale -->
+    <section class="py-5 my-0 my-lg-4 position-relative">
+        <div class="container">
+            <div class="section-top d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="assets/imgs/logo.png" width="50px" alt="">
+                    <div class="ps-2">
+                        <h5 class="text-white fw-bold">حواله خودرو </h5>
+                        <p class="text-secondary small m-0 d-none d-lg-block">خرید و فروش حواله خودرو</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" class="text-decoration-none text-white">
+                        <span class="pe-1 small">مشاهده بیشتر </span>
+                        <i class="bi bi-arrow-left text-asali"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/transfer1.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">فیدلیتی پرایم</h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">تهران-1404</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ سفید </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">دقایقی پیش</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">توافقی</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/transfer2.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">بی ام و 2002</h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">تهران-2025</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ سبز </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">1 ساعت پیش </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">توافقی</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/transfer3.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">دنا پلاس اتوماتیک توربو</h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">تهران-1399</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ آبی </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">12اردیبهشت1403</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">توافقی</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6 col-lg-3">
+                    <div class="card-new-car  position-relative">
+                        <div
+                            class="new_car_header w-75 d-flex justify-content-center body-bg rounded-pill position-absolute start-50 top-0 translate-middle">
+                            <img src="assets/imgs/transfer4.png" width="180px" alt="">
+                        </div>
+                        <div class="new_car_body bg-dark-navy p-3 text-white">
+                            <h6 class="py-3">پژو 207 دنده ای پاناروما</h6>
+                            <ul class="list-unstyled small new-car-list">
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-geo-alt fs"></i>
+                                    <span class="fw-lighter ps-1">تهران-1404</span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-palette"></i>
+                                    <span class="fw-lighter ps-1">رنگ سفید </span>
+                                </li>
+                                <li class="mb-2 mb-lg-3">
+                                    <i class="bi bi-calendar-date"></i>
+                                    <span class="fw-lighter ps-1">12اردیبهشت1403/span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="new_car_footer bg-dark-navy mt-2 p-3 position-relative">
+                            <div class="text-asali ">
+                                <span class="fs-5 fw-bolder">توافقی</span>
+                            </div>
+                            <div
+                                class="new-car-footer-icon-box body-bg position-absolute top-0 end-0 rounded-circle d-flex align-items-center justify-content-center">
+                                <span
+                                    class="border border-1 rounded-circle d-flex justify-content-center align-items-center">
+                                    <i class="bi bi-arrow-up fs-4 text-white"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Havale -->
+
+    <!-- start Brands -->
+    <section class="py-5 my-0 my-lg-4">
+        <div class="container">
+            <div class="bg-dark-navy p-3 rounded-4">
+                <div class="brand-cards pb-2 overflow-x-auto d-flex justify-content-between align-items-center gap-3">
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand2.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">سمند</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand3.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">هوندا</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand4.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">مزدا</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand6.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">ام وی ام</span>
+                    </div>
+                    <div
+                        class="brand-card bg-navy active d-flex justify-content-center align-items-center flex-column ">
+                        <img src="assets/imgs/brand5.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">پژو</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand1.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">پراید</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand8.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">نیسان</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand7.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">هیوندای</span>
+                    </div>
+                    <div class="brand-card bg-navy d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/imgs/brand9.png" width="40%" alt="">
+                        <span class="text-secondary pt-2">جک</span>
+                    </div>
+                </div>
+                <div class="row mt-3 g-2">
+                    <div class="col-12 col-lg-5">
+                        <div
+                            class="d-flex align-items-center justify-content-center justify-content-lg-start gap-2 text-white small fw-light">
+                            <span class="py-1 px-3 rounded-3 border border-1">حواله</span>
+                            <span class="py-1 px-3 rounded-3 border border-1">کارکرده</span>
+                            <span class="py-1 px-3 rounded-3 border border-1">صفر</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-2 order-first order-lg-0">
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-asali rounded-pill">مشاهده خودرو ها</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5">
+                        <div
+                            class="d-flex align-items-center justify-content-center justify-content-lg-end gap-2 text-white small fw-light">
+                            <span class="py-1 px-3 rounded-3 border border-1">206 SD</span>
+                            <span class="py-1 px-3 rounded-3 border border-1">405</span>
+                            <span class="py-1 px-3 rounded-3 border border-1">پارس</span>
+                            <span class="py-1 px-3 rounded-3 border border-1">207</span>
+                            <span class="py-1 px-3 rounded-3 border border-1">206</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Brands -->
+
+    <!-- Start FeedBack -->
+    <section>
+        <div class="container">
+            <div class="section-top d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="assets/imgs/logo.png" width="50px" alt="">
+                    <div class="ps-2">
+                        <h5 class="text-white fw-bold">نظرات کاربران</h5>
+                        <p class="text-secondary small m-0 d-none d-lg-block">خریداران . فروشنده های خودرو</p>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselfeedback" class="carousel slide feedback-slider position-relative">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="bg-dark-navy rounded-4 py-4 px-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="member-img-box bg-asali  rounded-circle position-relative">
+                                <img src="assets/imgs/member1.png" width="80px" height="80px" class="position-absolute rounded-circle border border-2 " alt="">
+                            </div>
+                            <p class="text-white col-12 col-md-10 col-lg-7 small fw-lighter text-center lh-lg py-2 py-lg-3">من از این سایت دوتا خرید ماشین داشتم به صورت حواله و نقدی راضی بودم در حال حاضر هم یه ماشین برای فروش گذاشتم ، این سایت رو برای خرید و فروش ماشینتون پیشنهاد میکنم . من از این سایت دوتا خرید ماشین داشتم به صورت حواله و نقدی راضی بودم در حال حاضر هم یه ماشین برای فروش گذاشته ام ، این سایت رو برای خرید و فروش ماشینتون پیشنهاد میکنم</p>
+                            <i class="bi bi-quote text-asali fs-2"></i> 
+                            <span class="text-white small mt-2 member-name">محمد صمدی </span>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="bg-dark-navy rounded-4 py-4 px-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="member-img-box bg-asali  rounded-circle position-relative">
+                                <img src="assets/imgs/member1.png" width="80px" height="80px" class="position-absolute rounded-circle border border-2 " alt="">
+                            </div>
+                            <p class="text-white col-12 col-md-10 col-lg-7 small fw-lighter text-center lh-lg py-2 py-lg-3">من از این سایت دوتا خرید ماشین داشتم به صورت حواله و نقدی راضی بودم در حال حاضر هم یه ماشین برای فروش گذاشتم ، این سایت رو برای خرید و فروش ماشینتون پیشنهاد میکنم . من از این سایت دوتا خرید ماشین داشتم به صورت حواله و نقدی راضی بودم در حال حاضر هم یه ماشین برای فروش گذاشته ام ، این سایت رو برای خرید و فروش ماشینتون پیشنهاد میکنم</p>
+                            <i class="bi bi-quote text-asali fs-2"></i> 
+                            <span class="text-white small mt-2 member-name">علی صمدی</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="bg-dark-navy rounded-4 py-4 px-3 d-flex flex-column justify-content-center align-items-center">
+                            <div class="member-img-box bg-asali  rounded-circle position-relative">
+                                <img src="assets/imgs/member1.png" width="80px" height="80px" class="position-absolute rounded-circle border border-2 " alt="">
+                            </div>
+                            <p class="text-white col-12 col-md-10 col-lg-7 small fw-lighter text-center lh-lg py-2 py-lg-3">من از این سایت دوتا خرید ماشین داشتم به صورت حواله و نقدی راضی بودم در حال حاضر هم یه ماشین برای فروش گذاشتم ، این سایت رو برای خرید و فروش ماشینتون پیشنهاد میکنم . من از این سایت دوتا خرید ماشین داشتم به صورت حواله و نقدی راضی بودم در حال حاضر هم یه ماشین برای فروش گذاشته ام ، این سایت رو برای خرید و فروش ماشینتون پیشنهاد میکنم</p>
+                            <i class="bi bi-quote text-asali fs-2"></i> 
+                            <span class="text-white small mt-2 member-name">فریما احمدی</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-custom position-absolute top-50 start-0 translate-middle bg-navy rounded-circle border-0 d-flex justify-content-center align-items-center" type="button" data-bs-target="#carouselfeedback"
+                    data-bs-slide="prev">
+                    <i class="bi bi-arrow-right-circle fs-2 text-white"></i>
+                </button>
+                <button class="carousel-control-custom position-absolute top-50 start-100 translate-middle bg-navy rounded-circle border-0 d-flex justify-content-center align-items-center" type="button" data-bs-target="#carouselfeedback"
+                    data-bs-slide="next">
+                    <i class="bi bi-arrow-left-circle fs-2 text-white"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- End FeedBack -->
+</body>
+
+</html>
