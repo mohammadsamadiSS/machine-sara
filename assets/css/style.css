@@ -1,1 +1,298 @@
+:root{
+    --asali-color:#EC620C;
+    --navy-color:#3F4A73;
+    --dark-navy-color:#090E23;
+    --body-bg:#141B34;
+    --navy-color-2:#090E2380;
+}
+.body-bg{
+    background-color: var(--body-bg);
+}
+.text-asali{
+    color: var(--asali-color) !important;
+}
+.bg-navy{
+    background-color: var(--navy-color);
+}
+.bg-asali{
+    background-color: var(--asali-color);
+}
+.bg-dark-navy{
+    background-color: var(--dark-navy-color);
+}
+.btn-asali{
+    background: linear-gradient(#f66b15 , #d0540f); 
+    color: white;
+    white-space: nowrap;
+}
+.btn-asali:hover{
+    background: linear-gradient(#ff2b00 , #ff2b00); 
+    color: white;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+        url('Vazir.woff2') format('woff2'),
+        url('Vazir.woff') format('woff'),
+        url('Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Vazir-Bold.woff2') format('woff2'),
+        url('Vazir-Bold.woff') format('woff'),
+        url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Black.eot');
+    src: url('Vazir-Black.eot?#iefix') format('embedded-opentype'),
+        url('Vazir-Black.woff2') format('woff2'),
+        url('Vazir-Black.woff') format('woff'),
+        url('Vazir-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Medium.eot');
+    src: url('Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Vazir-Medium.woff2') format('woff2'),
+        url('Vazir-Medium.woff') format('woff'),
+        url('Vazir-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Light.eot');
+    src: url('Vazir-Light.eot?#iefix') format('embedded-opentype'),
+        url('Vazir-Light.woff2') format('woff2'),
+        url('Vazir-Light.woff') format('woff'),
+        url('Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Thin.eot');
+    src: url('Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Vazir-Thin.woff2') format('woff2'),
+        url('Vazir-Thin.woff') format('woff'),
+        url('Vazir-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+body{
+    font-family:Vazir;
+    font-weight: 500;
+    height: 5000px;
+}
+/* Start Nav */
+.main-nav a{
+    color: white;
+    position: relative;
+}
+.main-nav a:hover{
+    color: white;
+}
+.main-nav a:not(.btn):hover::after{
+    content:"";
+    background-color: var(--asali-color);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -1px;
+    right: 0;
+}
+.divider{
+    border-left: 1px dashed white;
+    height: 20px;
+}
+/* End Nav */
+.img-over-left{
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.img-over-right{
+    right: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+@media (max-width: 575.98px){
+    .img-over-left{
+        width: 300px;
+    }
+}
+/* Start Services */
+.card-service{
+    border-radius: 60px;
+}
+.service-icon-box{
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+.service-icon-box span{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    transform: rotate(-45deg);
+}
+.card-service:hover .service-icon-box span{
+    color: var(--asali-color) !important;
+    border-color: var(--asali-color) !important;
+}
+/* End Services */
+/* Start Card car */
+.new_car_body{
+    border-radius: 50px 50px 0 50px;
+    padding-top: 70px !important;
+}
+.new-car-list i{
+    color: #858E96;
+    font-size: 13px;
+    opacity: 40%;
+}
+.new_car_footer{
+    border-radius:50px 0 50px  50px ;
+}
+.new-car-footer-icon-box{
+    width: 62px;
+    height: 62px;
+
+}
+.card-new-car{
+    margin-top: 100px;
+    cursor: pointer;
+}
+.new-car-footer-icon-box span{
+    width: 80%;
+    height: 80%;
+    transform: rotate(-45deg);
+}
+.new_car_header img{
+    margin-top: -15px;
+}   
+.new_car_header{
+    border-right: 2px solid var(--asali-color);
+}
+.card-new-car:hover .new-car-footer-icon-box span{
+    border-color: var(--asali-color) !important;
+    color: var(--asali-color) !important;
+}
+/* End Card car */
+/* Start Pricing */
+.pricing-box{
+    background-color:var(--navy-color-2);
+    border-radius: 40px;
+}
+.pricing-img-over{
+    filter: blur(10px);
+    opacity: 0.4;
+}
+.pricing-box::after{
+content: "";
+position: absolute;
+width: 600px;
+height: 300px;
+right: -180px;
+top: 60px;
+z-index: -1;
+background: radial-gradient(38.19% 28.33% at 50% 50%, #ED630D 0%, #733112 48.44%, #141B34 92.1%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+transform: rotate(-33.88deg);
+opacity: 0.7;
+}
+.pricing-container{
+    padding: 5px;
+    border-radius: 40px;
+    background: linear-gradient(150deg,transparent 80%, var(--asali-color));
+    cursor: pointer;
+    backdrop-filter: opacity(0);
+}
+.pricing-container:hover h5{
+    color: var(--asali-color);
+}
+.pricing-container:hover .pricing-img-over{
+    filter: blur(0);
+    opacity: 0.6;
+}
+.pricing-container:hover .pricing-box::after{
+    opacity: 1;
+}
+@media (max-width: 575.98px){
+    .pricing-box::after{
+        right: -25  0px;
+        top: 140px;
+    }
+    .pricing-img-over{
+        bottom: 60px !important;
+    }
+}
+/* End Pricing */
+/* Start Brand */
+.brand-card{
+    border-radius: 25px;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    
+    cursor: pointer;
+}
+.brand-card img{
+    filter: grayscale(100%) brightness(70%);
+}
+.brand-card.active{
+    min-width: 140px;
+    min-height: 140px;
+    max-width: 140px;
+    max-height: 140px;
+background: linear-gradient(180deg, #0E142C 24.44%, #542E25 89.88%);
+border: 1px solid var(--asali-color);
+}
+.brand-card.active span{
+    color: white !important;
+}
+.brand-card.active img{
+    filter: grayscale(0) brightness(100%);
+}
+.brand-card:hover span{
+    color: white !important;
+    
+}
+.brand-card:hover img{
+    filter: grayscale(0) brightness(100%);
+}
+/* End Brand */
+/* Start FeedBack */
+.feedback-slider .carousel-item:hover .member-name{
+    color: var(--asali-color) !important;
+}
+.member-img-box{
+    height: 80px;
+    width: 80px;
+}
+.member-img-box img{
+    border-color: var(--dark-navy-color) !important;
+    top: -2px; 
+    left: -2px;
+}
+.carousel-control-custom{
+    width: 50px;
+    height: 50px;
+}
+/* End FeedBack */
